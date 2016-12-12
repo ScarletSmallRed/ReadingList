@@ -1,5 +1,7 @@
 # Escaping and Nonescaping Closures in Swift 3
 
+[Source Link](https://swiftunboxed.com/lang/closures-escaping-noescape-swift3/)
+
 Functions and closures are *first-class objects* in Swift: you can store them, pass them as arguments to functions, and treat them as you would any other value or object. Passing in closures as completion handlers is a common pattern in many APIs we all know and love.
 
 When you pass a closure into a function in Swift 3, there’s a new wrinkle: the compiler assumes closure parameters are *non-escaping* by default. What does this mean? What’s the difference between an escaping and a non-escaping closure?
